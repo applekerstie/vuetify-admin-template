@@ -36,5 +36,10 @@ App.vue
 vue add vuetify
 ```
 
+### 6.
+```
+https://v2.vuetifyjs.com/en/
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
