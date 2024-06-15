@@ -1,23 +1,39 @@
 # vuetify-admin-template
 
-## Project setup
+## 1.
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm install -g @vue/cli
+vue --version
+@vue/cli 5.0.8
 ```
 
-### Compiles and minifies for production
+### 2.
 ```
-npm run build
+vue create vuetify-admin-template
 ```
 
-### Lints and fixes files
+### 3.
 ```
-npm run lint
+npm install vue-router@3
+```
+
+### 4.
+```
+src/view
+DashBoard.vue
+GridSystem.vue
+
+src/router
+index.js
+
+main.js
+
+App.vue
+```
+
+### 5.
+```
+vue add vuetify
 ```
 
 ### Customize configuration
