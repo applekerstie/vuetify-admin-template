@@ -1,19 +1,22 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeView from '@/views/HomeView.vue'
+//import HomeView from '@/views/HomeView.vue'
 import DashBoard from '@/views/DashBoard.vue'
 import GridSystem from '@/views/GridSystem.vue'
+import GridListPage from '@/views/GridListPage.vue'
 
 Vue.use(VueRouter);
 
 const routes = [
+  /*
   {
     path: '/',
     name: 'HomeView',
     component: HomeView
   },
+  */
   {
-    path: '/dash-board',
+    path: '/',
     name: 'DashBoard',
     component: DashBoard
   },
@@ -22,6 +25,11 @@ const routes = [
     name: 'GridSystem',
     component: GridSystem
   },
+  {
+    path: '/grid-list-page',
+    name: 'GridListPage',
+    component: GridListPage
+  }
 ]
 
 const router = new VueRouter({
